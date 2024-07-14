@@ -1,0 +1,27 @@
+    1  git clone https://github.com/DorokAnn/HW_10.git
+    2  cd ~/OneDrive/Desktop/Lesson_GitHub/HW_10
+    3  touch text_ignore.txt
+    4  git status
+    5  git add .
+    6  git commit
+    7  touch main_test.txt
+    8  git add .
+    9  git commit
+   10  git branch
+   11  git checkout -b develop
+   12  touch develop_test.txt
+   13  git add .
+   14  git commit
+   15  nano develop_test.txt
+   16  git status
+   17  git add .
+   18  git commit
+   19  git checkout main
+   20  git merge develop
+   21  git log
+   22  git config --global user.name "Anna"
+   23  git config --global user.email "dorokhova.ann@gmail.com"
+   24  git config --global user.email "dorokhova.ann@gmail.com"
+   25  git config --global user.email dorokhova.ann@gmail.com
+   26  git config --global user.email dorokhova.ann@gmail.com
+   27  history > command_list.csv
